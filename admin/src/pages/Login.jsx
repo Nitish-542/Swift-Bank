@@ -60,7 +60,7 @@ const Login = () => {
                         required
                     />
                 </div>
-                <button className='bg-gradient-to-r from-primary to-emerald-500 text-white w-full py-2 rounded-md text-base'>Login</button>
+                <button className='bg-gradient-to-r from-primary to-orange-500 text-white w-full py-2 rounded-md text-base'>Login</button>
                 {
                     state === 'Admin'
                         ? <p>Employee Login? <span className='font-bold text-primary underline cursor-pointer' onClick={() => setState('Employee')}>Click here</span></p>
