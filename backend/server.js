@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
     res.send('api working')
 })
 
-// ✅ new route to verify backend is running
+//   route to verify backend is running
 app.get('/api/test', (req, res) => {
     res.json({ message: 'API is working fine' })
 })
